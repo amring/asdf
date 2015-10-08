@@ -79,9 +79,9 @@ while (True):
         elif (op == "/"):
             print "Quotient: ", div(a, b)
         elif (op == "**"):
-			print "Exponent: ", exp(a, b)
-        elif
-			print "Modulus: ", mod(a, b)
+            print "Exponent: ", exp(a, b)
+        elif (op == "%"):
+            print "Modulus: ", mod(a, b)
         else:
             print "Invalid operation..."
 
